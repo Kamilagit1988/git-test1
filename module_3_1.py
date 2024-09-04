@@ -14,7 +14,7 @@ def is_contains(string, list_to_search):
     for item in list_to_search:
         if string == item.lower():
             return True
-    else:
+        else:
             return False
 
 # Пример вызова функций
