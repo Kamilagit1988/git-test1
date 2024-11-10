@@ -5,7 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14f4337e-4c2e-4879-9369-c609599784ac" name="Changes" comment="change">
-      <change afterPath="$PROJECT_DIR$/Module_9_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_9_3.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +44,7 @@
     "Python.Module_8_3.executor": "Run",
     "Python.Module_9_1.executor": "Run",
     "Python.Module_9_2.executor": "Run",
+    "Python.Module_9_3.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
     "last_opened_file_path": "C:/Users/user/Documents/Python/test/git_test"
@@ -129,7 +130,15 @@
       <option name="project" value="LOCAL" />
       <updated>1730587703454</updated>
     </task>
-    <option name="localTasksCounter" value="9" />
+    <task id="LOCAL-00009" summary="change">
+      <option name="closed" value="true" />
+      <created>1730983630533</created>
+      <option name="number" value="00009" />
+      <option name="presentableId" value="LOCAL-00009" />
+      <option name="project" value="LOCAL" />
+      <updated>1730983630533</updated>
+    </task>
+    <option name="localTasksCounter" value="10" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
