@@ -5,11 +5,7 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14f4337e-4c2e-4879-9369-c609599784ac" name="Changes" comment="change">
-      <change afterPath="$PROJECT_DIR$/Module_10_5.py" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file 1.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file 2.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file 3.txt" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/file 4.txt" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_11_1.py" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -44,6 +40,7 @@
     "Python.Module_10_3.executor": "Run",
     "Python.Module_10_4.executor": "Run",
     "Python.Module_10_5.executor": "Run",
+    "Python.Module_11_1.executor": "Run",
     "Python.Module_5_4.executor": "Run",
     "Python.Module_7_2.executor": "Run",
     "Python.Module_7_3.executor": "Run",
@@ -238,7 +235,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733749774091</updated>
     </task>
-    <option name="localTasksCounter" value="20" />
+    <task id="LOCAL-00020" summary="change">
+      <option name="closed" value="true" />
+      <created>1733763208911</created>
+      <option name="number" value="00020" />
+      <option name="presentableId" value="LOCAL-00020" />
+      <option name="project" value="LOCAL" />
+      <updated>1733763208911</updated>
+    </task>
+    <option name="localTasksCounter" value="21" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
