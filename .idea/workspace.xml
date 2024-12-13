@@ -4,8 +4,8 @@
     <option name="autoReloadType" value="SELECTIVE" />
   </component>
   <component name="ChangeListManager">
-    <list default="true" id="14f4337e-4c2e-4879-9369-c609599784ac" name="Changes" comment="change">
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+    <list default="true" id="14f4337e-4c2e-4879-9369-c609599784ac" name="Changes" comment="chang">
+      <change afterPath="$PROJECT_DIR$/tests_12_2.py" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -34,6 +34,7 @@
   <component name="PropertiesComponent"><![CDATA[{
   "keyToString": {
     "ASKED_ADD_EXTERNAL_FILES": "true",
+    "Python tests.Python tests in tests_12_1.py.executor": "Run",
     "Python.Module_10_1.executor": "Run",
     "Python.Module_10_2.executor": "Run",
     "Python.Module_10_3.executor": "Run",
@@ -250,7 +251,15 @@
       <option name="project" value="LOCAL" />
       <updated>1733946337473</updated>
     </task>
-    <option name="localTasksCounter" value="22" />
+    <task id="LOCAL-00022" summary="chang">
+      <option name="closed" value="true" />
+      <created>1734108341396</created>
+      <option name="number" value="00022" />
+      <option name="presentableId" value="LOCAL-00022" />
+      <option name="project" value="LOCAL" />
+      <updated>1734108341396</updated>
+    </task>
+    <option name="localTasksCounter" value="23" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
@@ -266,8 +275,8 @@
   </component>
   <component name="VcsManagerConfiguration">
     <MESSAGE value="s" />
-    <MESSAGE value="chang" />
     <MESSAGE value="change" />
-    <option name="LAST_COMMIT_MESSAGE" value="change" />
+    <MESSAGE value="chang" />
+    <option name="LAST_COMMIT_MESSAGE" value="chang" />
   </component>
 </project>
