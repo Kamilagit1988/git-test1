@@ -1,7 +1,7 @@
-2024-12-13 22:25:25,215 | INFO | "test_challenge" выполнен успешно
-2024-12-13 22:25:25,215 | WARNING | Неверный тип данных для объекта Runner
+2024-12-16 14:53:34,296 | INFO | "test_challenge" выполнен успешно
+2024-12-16 14:53:34,296 | WARNING | Неверный тип данных для объекта Runner
 Имя может быть только строкой, передано int
-2024-12-13 22:25:25,216 | WARNING | Traceback (most recent call last):
+2024-12-16 14:53:34,297 | WARNING | Traceback (most recent call last):
   File "C:\Users\user\Documents\Python\test\git_test\tests_12_4.py", line 84, in test_run
     runner = Runner(2)
              ^^^^^^^^^
@@ -9,9 +9,9 @@
     raise TypeError(f'Имя может быть только строкой, передано {type(name).__name__}')
 TypeError: Имя может быть только строкой, передано int
 
-2024-12-13 22:25:25,216 | WARNING | Неверная скорость для Runner
+2024-12-16 14:53:34,297 | WARNING | Неверная скорость для Runner
 Скорость не может быть отрицательной, сейчас -5
-2024-12-13 22:25:25,217 | WARNING | Traceback (most recent call last):
+2024-12-16 14:53:34,299 | WARNING | Traceback (most recent call last):
   File "C:\Users\user\Documents\Python\test\git_test\tests_12_4.py", line 73, in test_walk
     runner = Runner("Вася", -5)
              ^^^^^^^^^^^^^^^^^^
