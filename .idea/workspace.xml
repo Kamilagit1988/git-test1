@@ -5,7 +5,9 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14f4337e-4c2e-4879-9369-c609599784ac" name="Changes" comment="chang">
-      <change afterPath="$PROJECT_DIR$/Module_13_1.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_13_2.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/git_test.iml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/git_test.iml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
@@ -22,6 +24,9 @@
   </component>
   <component name="Git.Settings">
     <option name="RECENT_GIT_ROOT_PATH" value="$PROJECT_DIR$" />
+  </component>
+  <component name="HighlightingSettingsPerFile">
+    <setting file="file://$PROJECT_DIR$/Module_13_2.py" root0="FORCE_HIGHLIGHTING" />
   </component>
   <component name="ProjectColorInfo">{
   &quot;associatedIndex&quot;: 6
@@ -49,6 +54,7 @@
     "Python.Module_11_2.executor": "Run",
     "Python.Module_11_3.executor": "Run",
     "Python.Module_13_1.executor": "Run",
+    "Python.Module_13_2.executor": "Run",
     "Python.Module_5_4.executor": "Run",
     "Python.Module_7_2.executor": "Run",
     "Python.Module_7_3.executor": "Run",
@@ -70,7 +76,8 @@
     "Python.практика.executor": "Run",
     "RunOnceActivity.ShowReadmeOnStart": "true",
     "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/user/Documents/Python/test/git_test"
+    "last_opened_file_path": "C:/Users/user/Documents/Python/test/git_test",
+    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
   }
 }]]></component>
   <component name="RecentsManager">
@@ -310,7 +317,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734350075200</updated>
     </task>
-    <option name="localTasksCounter" value="28" />
+    <task id="LOCAL-00028" summary="chang">
+      <option name="closed" value="true" />
+      <created>1734361637259</created>
+      <option name="number" value="00028" />
+      <option name="presentableId" value="LOCAL-00028" />
+      <option name="project" value="LOCAL" />
+      <updated>1734361637259</updated>
+    </task>
+    <option name="localTasksCounter" value="29" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
