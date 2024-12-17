@@ -1,51 +1,28 @@
-from threading import Thread, Lock
-import random
-from time import sleep
+from aiogram import Bot, Dispatcher, executor, types
+from aiogram.contrib.fsm_storage.memory import MemoryStorage
+from aiogram.dispatcher.filters.state import State, StatesGroup
+from aiogram.dispatcher import FSMContext
+import asyncio
+
+api = ""
+bot = Bot(token = api)
+dp = Dispatcher(bot, storage = MemoryStorage())
+
+class UserState(StatesGroup):
+    adress = State()
+
+@dp.message_handler(text = "Заказать")
+async  def buy(message):
+    await message.answer("Отправь нам свой адрес, пожалуйста.")
+    await UserState.adress.set()
+
+@dp.message_handler(state = UserState.adress)
+async  def fsm_handler(message, state):
+   await state.update_data(first = message.text)
+   data = await state.get_data()
+   await message.answer(f"Доставка будет отправлена на {data ['first']}")
+   await state.finish()
 
 
-class Bank(Thread):
-    def __init__(self):
-        Thread.__init__(self)
-        self.balance = 0
-        self.lock = Lock()
-
-
-    def deposit(self):
-        print(f'На депозите {self.balance} средств')
-
-        for i in range(100):
-            dep = random.randint(50, 500)
-            self.balance += dep
-            print(f'Пополнение: {dep}. Баланс: {self.balance}')
-
-            if self.balance >= 500 and self.lock.locked():
-
-                print(f'Пополнен: {dep}. Баланс: {self.balance}')
-                self.lock.release()
-
-    sleep(0.001)
-
-    def take(self):
-
-        for i in range(100):
-            tk = random.randint(50, 500)
-            print(f'Запрос на {tk}')
-
-            if tk <= self.balance:
-                self.balance = self.balance - tk
-                print(f'Снятие: {tk}. Баланс: {self.balance}')
-
-            else:
-                print('Запрос отклонён, недостаточно средств')
-        self.lock.acquire()
-
-bk = Bank()
-th1 = Thread(target=Bank.deposit, args=(bk,))
-th2 = Thread(target=Bank.take, args=(bk,))
-
-th1.start()
-th2.start()
-th1.join()
-th2.join()
-
-print(f'Итоговый баланс: {bk.balance}')
+if __name__ == "__main__":
+    executor.start_polling(dp, skip_updates = True)
