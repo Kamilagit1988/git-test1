@@ -61,7 +61,9 @@ async def send_calories(message, state):
     await state.finish()
 
 
-
+@dp.message_handler()
+async def all_message(message):
+    await message.answer("Введите команду /start чтобы начать общение.")
 
 #@dp.callback_query_handler(text = 'info')
 #async def infor(call):
