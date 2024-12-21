@@ -7,7 +7,7 @@ from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 from aiogram.types import InlineKeyboardMarkup, InlineKeyboardButton
 import asyncio
 
-api = ""
+api = "7541077124:AAGPDfJ-eyaXNPpySZi3w9tcbR3Ye3P6jcQ"
 bot = Bot(token = api)
 dp = Dispatcher(bot, storage = MemoryStorage())
 
@@ -77,7 +77,9 @@ async def send_calories(message, state):
     await UserState.weight.set()
     await state.finish()
 
-
+@dp.message_handler()
+async def all_message(message):
+    await message.answer("Введите команду /start чтобы начать общение.")
 
 if __name__ == "__main__":
     executor.start_polling(dp, skip_updates = True)
