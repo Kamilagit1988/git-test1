@@ -5,10 +5,10 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="14f4337e-4c2e-4879-9369-c609599784ac" name="Changes" comment="changeeses">
-      <change afterPath="$PROJECT_DIR$/Module_14_2.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Module_14_3.py" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/image/3.png" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/not_telegram.db" beforeDir="false" afterPath="$PROJECT_DIR$/not_telegram.db" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/практика.py" beforeDir="false" afterPath="$PROJECT_DIR$/практика.py" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/практика.py" beforeDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -37,60 +37,65 @@
     <option name="hideEmptyMiddlePackages" value="true" />
     <option name="showLibraryContents" value="true" />
   </component>
-  <component name="PropertiesComponent"><![CDATA[{
-  "keyToString": {
-    "ASKED_ADD_EXTERNAL_FILES": "true",
-    "Python tests.Python tests in test_12_3.py.executor": "Run",
-    "Python tests.Python tests in tests_12_1.py.executor": "Run",
-    "Python tests.Python tests in tests_12_2.py.executor": "Run",
-    "Python tests.Python tests in tests_12_3.py.executor": "Run",
-    "Python tests.Python tests in tests_12_4.py.executor": "Run",
-    "Python.DB.executor": "Run",
-    "Python.Module _13_3.executor": "Run",
-    "Python.Module_10_1.executor": "Run",
-    "Python.Module_10_2.executor": "Run",
-    "Python.Module_10_3.executor": "Run",
-    "Python.Module_10_4.executor": "Run",
-    "Python.Module_10_5.executor": "Run",
-    "Python.Module_11_1.executor": "Run",
-    "Python.Module_11_2.executor": "Run",
-    "Python.Module_11_3.executor": "Run",
-    "Python.Module_13_1.executor": "Run",
-    "Python.Module_13_2.executor": "Run",
-    "Python.Module_13_3.executor": "Run",
-    "Python.Module_13_4.executor": "Run",
-    "Python.Module_13_5.executor": "Run",
-    "Python.Module_13_6.executor": "Run",
-    "Python.Module_14_1.executor": "Run",
-    "Python.Module_14_2.executor": "Run",
-    "Python.Module_5_4.executor": "Run",
-    "Python.Module_7_2.executor": "Run",
-    "Python.Module_7_3.executor": "Run",
-    "Python.Module_7_4.executor": "Run",
-    "Python.Module_8_1.executor": "Run",
-    "Python.Module_8_2.executor": "Run",
-    "Python.Module_8_3.executor": "Run",
-    "Python.Module_9_1.executor": "Run",
-    "Python.Module_9_2.executor": "Run",
-    "Python.Module_9_3.executor": "Run",
-    "Python.Module_9_4.executor": "Run",
-    "Python.Module_9_5.executor": "Run",
-    "Python.Module_9_6.executor": "Run",
-    "Python.Module_9_7.executor": "Run",
-    "Python.moy list.executor": "Run",
-    "Python.suite_12_3.executor": "Run",
-    "Python.tests_12_3.executor": "Run",
-    "Python.tests_12_4.executor": "Run",
-    "Python.практика.executor": "Run",
-    "RunOnceActivity.ShowReadmeOnStart": "true",
-    "SHARE_PROJECT_CONFIGURATION_FILES": "true",
-    "git-widget-placeholder": "master",
-    "last_opened_file_path": "C:/Users/user/Documents/Python/test/git_test",
-    "settings.editor.selected.configurable": "com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable"
+  <component name="PropertiesComponent">{
+  &quot;keyToString&quot;: {
+    &quot;ASKED_ADD_EXTERNAL_FILES&quot;: &quot;true&quot;,
+    &quot;Python tests.Python tests in test_12_3.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in tests_12_1.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in tests_12_2.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in tests_12_3.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python tests.Python tests in tests_12_4.py.executor&quot;: &quot;Run&quot;,
+    &quot;Python.DB.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module _13_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_10_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_10_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_10_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_10_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_10_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_11_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_11_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_11_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_13_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_13_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_13_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_13_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_13_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_13_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_14_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_14_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_14_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_5_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_7_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_7_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_7_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_8_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_8_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_8_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_9_1.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_9_2.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_9_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_9_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_9_5.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_9_6.executor&quot;: &quot;Run&quot;,
+    &quot;Python.Module_9_7.executor&quot;: &quot;Run&quot;,
+    &quot;Python.moy list.executor&quot;: &quot;Run&quot;,
+    &quot;Python.suite_12_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tests_12_3.executor&quot;: &quot;Run&quot;,
+    &quot;Python.tests_12_4.executor&quot;: &quot;Run&quot;,
+    &quot;Python.практика.executor&quot;: &quot;Run&quot;,
+    &quot;RunOnceActivity.ShowReadmeOnStart&quot;: &quot;true&quot;,
+    &quot;SHARE_PROJECT_CONFIGURATION_FILES&quot;: &quot;true&quot;,
+    &quot;git-widget-placeholder&quot;: &quot;master&quot;,
+    &quot;last_opened_file_path&quot;: &quot;C:/Users/user/Documents/Python/test/git_test&quot;,
+    &quot;settings.editor.selected.configurable&quot;: &quot;com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable&quot;
   }
-}]]></component>
+}</component>
   <component name="RecentsManager">
     <key name="CopyFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\Python\test\git_test" />
+    </key>
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="C:\Users\user\Documents\Python\test\git_test\image" />
       <recent name="C:\Users\user\Documents\Python\test\git_test" />
     </key>
   </component>
@@ -430,7 +435,15 @@
       <option name="project" value="LOCAL" />
       <updated>1734943510421</updated>
     </task>
-    <option name="localTasksCounter" value="41" />
+    <task id="LOCAL-00041" summary="changeeses">
+      <option name="closed" value="true" />
+      <created>1734995313331</created>
+      <option name="number" value="00041" />
+      <option name="presentableId" value="LOCAL-00041" />
+      <option name="project" value="LOCAL" />
+      <updated>1734995313331</updated>
+    </task>
+    <option name="localTasksCounter" value="42" />
     <servers />
   </component>
   <component name="Vcs.Log.Tabs.Properties">
